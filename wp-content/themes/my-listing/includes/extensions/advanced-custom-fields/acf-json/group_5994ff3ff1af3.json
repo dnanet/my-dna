@@ -1,0 +1,51 @@
+{
+    "key": "group_5994ff3ff1af3",
+    "title": "Listing Promotions",
+    "fields": [
+        {
+            "key": "field_5b1ae72ddf548",
+            "label": "Enable Listing Promotions",
+            "name": "promotions_version",
+            "type": "select",
+            "instructions": "Allow users to buy promotion packages and apply to their listings. Promoted listings are given priority in search results. <a href=\"https:\/\/helpdesk.27collective.net\/knowledgebase\/setup-promoted-listings\/\" target=\"_blank\">Learn More.<\/a>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "2.0": "Enable",
+                "none": "Disable"
+            },
+            "default_value": [
+                "2.0"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-promotions-settings"
+            }
+        ]
+    ],
+    "menu_order": 10,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1542324470
+}

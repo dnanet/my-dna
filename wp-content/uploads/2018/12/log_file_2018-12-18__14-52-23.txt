@@ -1,0 +1,22 @@
+
+---Downloaded files---
+The import files for: My City were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://interjet.co.il/demos/mydna
+Data file = /home/interjet/public_html/demos/mydna/wp-content/uploads/2018/12/demo-content-import-file_2018-12-18__14-52-23.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---pt-ocdi/after_import---
+

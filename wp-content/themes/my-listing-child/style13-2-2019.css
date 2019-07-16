@@ -1,0 +1,42 @@
+/*
+ Theme Name:   My Listing Child
+ Theme URI:    http://mylisting.27collective.net/my-city/
+ Description:  MyListing Child Theme
+ Author:       27collective
+ Author URI:   https://27collective.net/
+ Template:     my-listing
+ Version:      1.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, custom-menu, custom-logo, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain:  my-listing-child
+*/
+body {
+        overflow-x: hidden;
+}
+.files-block  .file-list li img {width:100%;}
+.sbf-title a {
+    min-height: 54px;
+        overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+}
+.wpcf7 .wpcf7-form input, .wpcf7 .wpcf7-form textarea {
+    text-align: right;
+}
+.yoast_breadcrumb {
+    padding: 10px 50px;
+}
+.cookie-bar-bar .ctcc-inner {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 0 50px;
+}
+@media (min-width: 768px) {
+.home .elementor-column.elementor-col-100{
+    max-width: 1140px;
+    margin: 0 AUTO;
+    width: 100%;
+}
+}

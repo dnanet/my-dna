@@ -1,0 +1,107 @@
+[27-Dec-2018 12:04:34 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 2097152 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 1889
+[27-Dec-2018 12:10:30 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 196608 bytes) in /home/interjet/public_html/demos/mydna/wp-content/plugins/elementor/includes/fonts.php on line 489
+[27-Dec-2018 12:10:30 UTC] PHP Fatal error:  Class 'Elementor\WC_Log_Handler' not found in /home/interjet/public_html/demos/mydna/wp-content/plugins/woocommerce/includes/log-handlers/class-wc-log-handler-file.php on line 19
+[27-Dec-2018 12:11:00 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 102 bytes) in /home/interjet/public_html/demos/mydna/wp-content/plugins/elementor/includes/base/controls-stack.php on line 1144
+[27-Dec-2018 12:11:59 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2515
+[27-Dec-2018 12:27:50 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 69520 bytes) in /home/interjet/public_html/demos/mydna/wp-admin/includes/admin.php on line 35
+[27-Dec-2018 12:27:54 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 69520 bytes) in /home/interjet/public_html/demos/mydna/wp-admin/includes/admin.php on line 35
+[27-Dec-2018 12:33:40 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2515
+[27-Dec-2018 12:34:18 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2515
+[27-Dec-2018 12:35:24 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2515
+[27-Dec-2018 12:35:50 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2515
+[27-Dec-2018 12:36:09 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2515
+[27-Dec-2018 12:36:35 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2515
+[27-Dec-2018 12:36:53 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 1889
+[27-Dec-2018 12:37:17 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2515
+[27-Dec-2018 12:38:17 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2515
+[27-Dec-2018 12:52:40 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 507000 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/class-requests.php on line 752
+[30-Dec-2018 06:55:02 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[30-Dec-2018 13:08:23 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 196608 bytes) in /home/interjet/public_html/demos/mydna/wp-content/plugins/elementor/includes/fonts.php on line 489
+[30-Dec-2018 13:08:23 UTC] PHP Fatal error:  Class 'Elementor\WC_Log_Handler' not found in /home/interjet/public_html/demos/mydna/wp-content/plugins/woocommerce/includes/log-handlers/class-wc-log-handler-file.php on line 19
+[30-Dec-2018 13:09:04 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 12288 bytes) in /home/interjet/public_html/demos/mydna/wp-content/plugins/elementor/core/settings/general/model.php on line 121
+[30-Dec-2018 13:09:55 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 12288 bytes) in /home/interjet/public_html/demos/mydna/wp-content/plugins/elementor/core/settings/general/model.php on line 121
+[30-Dec-2018 13:19:33 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 3072 bytes) in /home/interjet/public_html/demos/mydna/wp-content/plugins/elementor/core/settings/general/model.php on line 65
+[30-Dec-2018 13:20:23 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 81 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 1889
+[30-Dec-2018 13:21:17 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 64 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2521
+[30-Dec-2018 13:22:16 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 83 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2521
+[30-Dec-2018 13:25:07 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/interjet/public_html/demos/mydna/wp-includes/wp-db.php on line 2521
+[30-Dec-2018 15:23:02 UTC] PHP Notice:  Trying to get property of non-object in /home/interjet/public_html/demos/mydna/wp-includes/class-wp-query.php on line 3871
+[30-Dec-2018 18:56:28 UTC] PHP Notice:  Trying to get property of non-object in /home/interjet/public_html/demos/mydna/wp-content/plugins/duplicate-post/duplicate-post-common.php on line 149
+[30-Dec-2018 18:56:28 UTC] PHP Notice:  Trying to get property of non-object in /home/interjet/public_html/demos/mydna/wp-content/plugins/duplicate-post/duplicate-post-common.php on line 123
+[31-Dec-2018 08:51:33 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[02-Jan-2019 09:12:47 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[03-Jan-2019 07:38:52 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[03-Jan-2019 07:51:04 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[03-Jan-2019 07:51:04 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[03-Jan-2019 07:51:04 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[03-Jan-2019 08:08:42 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[03-Jan-2019 08:08:42 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[03-Jan-2019 08:08:42 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[03-Jan-2019 08:08:42 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[03-Jan-2019 11:11:18 UTC] PHP Warning:  Division by zero in /home/interjet/public_html/demos/mydna/wp-content/themes/my-listing/sections/listing-feed.php on line 170
+[03-Jan-2019 11:11:18 UTC] PHP Warning:  Division by zero in /home/interjet/public_html/demos/mydna/wp-content/themes/my-listing/sections/listing-feed.php on line 170
+[03-Jan-2019 12:02:57 UTC] PHP Notice:  Trying to get property of non-object in /home/interjet/public_html/demos/mydna/wp-includes/class-wp-query.php on line 3871
+[03-Jan-2019 12:03:42 UTC] PHP Notice:  Trying to get property of non-object in /home/interjet/public_html/demos/mydna/wp-includes/class-wp-query.php on line 3871
+[03-Jan-2019 12:06:14 UTC] PHP Notice:  Trying to get property of non-object in /home/interjet/public_html/demos/mydna/wp-content/themes/my-listing/includes/integrations/27collective/breadcrumbs/breadcrumbs.php on line 199
+[03-Jan-2019 12:06:14 UTC] PHP Notice:  Trying to get property of non-object in /home/interjet/public_html/demos/mydna/wp-content/themes/my-listing/includes/integrations/27collective/breadcrumbs/breadcrumbs.php on line 232
+[03-Jan-2019 20:45:37 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[06-Jan-2019 04:19:30 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[06-Jan-2019 04:19:30 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[06-Jan-2019 04:20:42 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[06-Jan-2019 04:20:42 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[06-Jan-2019 09:29:29 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[14-Jan-2019 11:36:00 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[29-Jan-2019 14:44:26 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[04-Feb-2019 08:03:43 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[04-Feb-2019 08:25:26 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-content/themes/my-listing/partials/search-form.php on line 16
+[04-Feb-2019 08:25:38 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-content/themes/my-listing/partials/search-form.php on line 16
+[04-Feb-2019 08:29:54 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-content/themes/my-listing/partials/search-form.php on line 16
+[04-Feb-2019 08:30:29 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-content/themes/my-listing/partials/search-form.php on line 16
+[04-Feb-2019 08:30:33 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-content/themes/my-listing/partials/search-form.php on line 16
+[04-Feb-2019 08:35:11 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 08:35:11 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 09:49:16 UTC] PHP Notice:  Trying to get property of non-object in /home/interjet/public_html/demos/mydna/wp-includes/class-wp-query.php on line 3871
+[04-Feb-2019 09:59:07 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 09:59:07 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 10:54:53 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 10:54:53 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:00:03 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:00:03 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:05:24 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:05:24 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:08:43 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:08:43 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:11:34 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:11:34 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:11:34 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:13:00 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:13:00 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:14:04 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:14:04 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:14:04 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 11:41:43 UTC] PHP Notice:  Trying to get property of non-object in /home/interjet/public_html/demos/mydna/wp-includes/class-wp-query.php on line 3871
+[04-Feb-2019 16:25:52 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 16:25:52 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 16:30:51 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 16:30:51 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 16:57:01 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 16:57:01 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 16:57:30 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 16:57:30 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 16:59:53 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 16:59:53 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 17:21:43 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 17:21:43 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 17:23:45 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 17:23:45 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 17:30:50 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[04-Feb-2019 17:30:50 UTC] PHP Notice:  Array to string conversion in /home/interjet/public_html/demos/mydna/wp-includes/formatting.php on line 1045
+[10-Feb-2019 09:54:05 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[11-Feb-2019 09:09:45 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/interjet/public_html/demos/mydna/wp-includes/class-simplepie.php on line 1555
+[11-Feb-2019 11:52:15 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/mydnaco/public_html/wp-includes/class-simplepie.php on line 1555
+[11-Feb-2019 12:05:15 UTC] PHP Notice:  Constant DOING_AJAX already defined in /home/mydnaco/public_html/wp-content/plugins/one-click-ssl/ssl.php on line 588
+[11-Feb-2019 12:05:15 UTC] PHP Notice:  Constant SHORTINIT already defined in /home/mydnaco/public_html/wp-content/plugins/one-click-ssl/ssl.php on line 589
+[12-Feb-2019 07:52:57 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/mydnaco/public_html/wp-includes/class-simplepie.php on line 1555
+[13-Feb-2019 11:03:45 UTC] PHP Notice: A feed could not be found at https://feeds.feedburner.com/planetwpheb. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed. in /home/mydnaco/public_html/wp-includes/class-simplepie.php on line 1555
+[13-Feb-2019 11:08:54 UTC] PHP Warning:  require_once(/home/mydnaco/public_html/wp-content/themes/my-listing-child/public/class-ctcc-public.php): failed to open stream: No such file or directory in /home/mydnaco/public_html/wp-content/themes/my-listing-child/functions.php on line 13
+[13-Feb-2019 11:08:54 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mydnaco/public_html/wp-content/themes/my-listing-child/public/class-ctcc-public.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mydnaco/public_html/wp-content/themes/my-listing-child/functions.php on line 13

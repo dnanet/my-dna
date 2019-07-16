@@ -1,0 +1,385 @@
+{
+    "key": "group_5c02e60f9c2d3",
+    "title": "Listing Stats",
+    "fields": [
+        {
+            "key": "field_5c02e61e439ac",
+            "label": "General",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c02e7b57bb12",
+            "label": "Delete stats older than",
+            "name": "stats_general_delete_after",
+            "type": "number",
+            "instructions": "Set how long visit stats will be saved in the database. This is done to avoid database bloat, and performance hits as a result.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "ml-number-input-xs",
+                "id": ""
+            },
+            "default_value": 30,
+            "placeholder": 30,
+            "prepend": "",
+            "append": "days",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5c02f266c803a",
+            "label": "Color palette",
+            "name": "stats_general_colors",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5c02f251c8039",
+                    "label": "Color #1",
+                    "name": "one",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#6c1cff"
+                },
+                {
+                    "key": "field_5c02f2b6c803b",
+                    "label": "Color #2",
+                    "name": "two",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#911cff"
+                },
+                {
+                    "key": "field_5c02f2cec803c",
+                    "label": "Color #3",
+                    "name": "three",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#6c1cff"
+                },
+                {
+                    "key": "field_5c02f2d4c803d",
+                    "label": "Color #4",
+                    "name": "four",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#0079e0"
+                }
+            ]
+        },
+        {
+            "key": "field_5c02e93550e7d",
+            "label": "Visits Chart",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c02e94150e7e",
+            "label": "Enable visits chart",
+            "name": "stats_visits_chart_enabled",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c02e9e3ca659",
+            "label": "\"Views\" series color",
+            "name": "stats_visits_chart_views_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#0079e0"
+        },
+        {
+            "key": "field_5c02ea47ca65a",
+            "label": "\"Unique Views\" series color",
+            "name": "stats_visits_chart_unique_views_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#911cff"
+        },
+        {
+            "key": "field_5c02ea8124ec4",
+            "label": "Sections",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c02eaac24ec5",
+            "label": "Enable Referrers",
+            "name": "stats_referrers_enabled",
+            "type": "true_false",
+            "instructions": "Displays a list of top referrers to your listings.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c02ead524ec6",
+            "label": "Default referrers section state",
+            "name": "stats_referrers_default_state",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c02eaac24ec5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "collapsed": "Collapsed",
+                "expanded": "Expanded"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5c02ec0ba1d1e",
+            "label": "Enable Browsers",
+            "name": "stats_browsers_enabled",
+            "type": "true_false",
+            "instructions": "Displays a list of top browsers.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c02ebcba1d1d",
+            "label": "Enable Platforms",
+            "name": "stats_platforms_enabled",
+            "type": "true_false",
+            "instructions": "Displays a list of top platforms (operating systems).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c02ec2ea1d1f",
+            "label": "Enable Countries",
+            "name": "stats_countries_enabled",
+            "type": "true_false",
+            "instructions": "Displays a list of top countries.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c0309d9b4f75",
+            "label": "Enable Devices",
+            "name": "stats_devices_enabled",
+            "type": "true_false",
+            "instructions": "Displays the visits share between mobile\/desktop.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c02ec6da1d21",
+            "label": "Enable Views block",
+            "name": "stats_views_section_enabled",
+            "type": "true_false",
+            "instructions": "Displays visit stats for the last day, last 7 days and last 30 days.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c02ecd0a1d22",
+            "label": "Enable Unique Views block",
+            "name": "stats_unique_views_section_enabled",
+            "type": "true_false",
+            "instructions": "Displays unique visit stats for the last day, last 7 days and last 30 days.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-stats-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1543703099
+}
