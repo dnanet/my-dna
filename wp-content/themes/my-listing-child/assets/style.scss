@@ -1,0 +1,202 @@
+// compileCompressed: ../build/css/style.css
+
+$white: #ffffff;
+$purple: #7b539e;
+$black: #000000;
+
+body {
+    overflow-x: hidden;
+}
+.files-block  .file-list li img {width:100%;}
+.sbf-title a {
+    min-height: 54px;
+        overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+}
+.wpcf7 .wpcf7-form input, .wpcf7 .wpcf7-form textarea {
+    text-align: right;
+}
+.yoast_breadcrumb {
+    padding: 5px 50px;
+}
+.cookie-bar-bar .ctcc-inner, .ctcc-inner.cookies_notification {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 0 50px;
+    display: flex;
+}
+
+// .single .yoast_breadcrumb {
+//     position: absolute;
+//     z-index: 1111;
+//     top: 90px;
+//     color: $black;
+//     background: rgba(255,255,255, .2);
+//     width: 100%;
+// }
+
+.single,
+.single-job_listing,
+.page-template-content-featured-image {
+    .yoast_breadcrumb {
+        position: relative;
+        top:auto;
+        background: $purple !important;
+        color: $white;
+        p {
+            margin:0;
+            color: $white;
+            a {
+                color: $white;
+                &:hover,
+                &:focus {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}
+
+// .single-job_listing .yoast_breadcrumb p, .single-job_listing .yoast_breadcrumb a,
+// .single .yoast_breadcrumb p, .single .yoast_breadcrumb a{
+//     color:$black;
+//     margin: 0;
+// }
+// .single-job_listing .yoast_breadcrumb p, .single-job_listing .yoast_breadcrumb a {
+//     color:$white;
+// }
+.bonus_gallery .file-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bonus_gallery .file-list li {
+    width: 20%;
+    float: right;
+}
+.block-field-iframe-script {
+    visibility: hidden;
+}
+.pf-body iframe {
+    min-height: 250px;
+}
+.blog .profile-cover-no-bg .cover-buttons>ul>a div.buttons {
+    border: 1px solid #bac2c5;
+    color: rgba(0,0,0,.6)!important;
+}
+.blog .profile-cover-no-bg .reveal, .blog .profile-cover-no-bg.profile-cover {
+    background: transparent;
+}
+.blog .cover-buttons>ul>a {
+    float: right;
+    position: relative;
+    padding-right: 5px;
+    margin:5px;
+}
+.blog .cover-buttons  {
+    height: auto;
+    width: 100%;
+}
+.category .cover-buttons,
+.tag .cover-buttons {
+    display: none;
+}
+.blog .cover-buttons > ul > a div.buttons {
+    border: 1px solid #bac2c5;
+    color: rgba(0,0,0,.6)!important;
+}
+@media (min-width: 768px) {
+.home .elementor-column.elementor-col-100{
+    max-width: 1140px;
+    margin: 0 AUTO;
+    width: 100%;
+}
+}
+@media (max-width: 768px) {
+    .bonus_gallery .file-list li {
+    width: 50%;
+}
+}
+.page-template-content-featured-image .profile-cover {
+    height: 675px;
+}
+.blogpost-section .container {
+    padding-right: inherit;
+    padding-left: inherit;
+}
+.home .blog-footer{
+    display: none;
+}
+.section-button {
+    text-align: center;
+    margin-top: 40px;
+}
+.section-button .tag-link {
+    font-family: "Open Sans Hebrew", Sans-serif;
+    font-weight: 500;
+    background-color: #4d296f;
+    padding: 15px 40px 15px 40px;
+    color:#fff;
+}
+.business_signup_form select {
+    width: 100%;
+    height: 35px;
+    margin:20px 0;
+}
+.page .event-date, .page .row.c27-post-changer  {
+    display: none;
+}
+.page .buttons.button-outlined.medium,
+.single .buttons.button-outlined.medium {
+    font-size:16px;
+    font-family: "Open Sans Hebrew", Sans-serif;
+}
+.tax-job_listing_category .cover-buttons ul li {
+    display: inline;
+}
+.tax-job_listing_category .cover-buttons .button-outlined {
+   border: 1px solid #bac2c5;
+    color: rgba(0,0,0,.6)!important
+}
+.i-section {
+    padding-top:10px !important;
+    padding-bottom: 10px !important;
+}
+.single h2 {
+    padding-bottom: 15px;
+}
+.sticky .sbf-container {
+    outline: 0 !important;
+}
+.search.search-results .cover-buttons{
+    display: none;
+}
+
+.blogpost-section .section-body {
+    p a {
+        word-break: break-all;
+        white-space: normal;
+    }
+}
+
+
+@media screen and ( max-width: 768px ) {
+    .row {
+        &.c27-post-changer,
+        &.tags-list {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+    }
+
+}
+
+@media screen and ( max-width: 640px ) {
+    iframe {
+        max-width: 100% !important;
+        max-height: 200px;
+    }
+}

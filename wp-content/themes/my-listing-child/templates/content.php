@@ -66,6 +66,8 @@ $categories = c27()->get_terms(get_the_ID(), 'category'); ?>
 	</div>
 </section>
 
+<?php get_template_part('partials/breadcrumbs'); ?>
+
 <section class="i-section blogpost-section" style="background:#fff;">
 	<div class="container">
 		<div class="row blog-title reveal">
@@ -136,5 +138,3 @@ $categories = c27()->get_terms(get_the_ID(), 'category'); ?>
 		<?php comments_template() ?>
 	</section>
 <?php endif ?>
-
-

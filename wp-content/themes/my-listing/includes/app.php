@@ -1,7 +1,5 @@
 <?php
-
 namespace MyListing\Includes;
-
 class App {
 	use \MyListing\Src\Traits\Instantiatable;
 
@@ -32,7 +30,6 @@ class App {
 		if ( isset( $this->classes[ $method ] ) ) {
 			return $this->classes[ $method ];
 		}
-
 		return null;
 	}
 }

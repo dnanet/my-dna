@@ -5,16 +5,18 @@ add_action( 'wp_enqueue_scripts', function() {
     if ( is_rtl() ) {
     	wp_enqueue_style( 'mylisting-rtl', get_template_directory_uri() . '/rtl.css', [], wp_get_theme()->get('Version') );
     }
+    wp_enqueue_style( 'child_theme_style', get_stylesheet_directory_uri() . '/build/css/style.css', [], wp_get_theme()->get('Version') );
 }, 500 );
+
 // Happy Coding :)
 if ( ! function_exists( 'display_related_posts_on_listing' ) ) {
 
     function display_related_posts_on_listing($post_tag) {
         $args = array(
-            'post_type' => 'post',
-            'tag' => $post_tag, // Here is where is being filtered by the tag you want
-            'orderby' => 'rand',
-            'order' => 'ASC',
+            'post_type'      => 'post',
+            'tag'            => $post_tag, // Here is where is being filtered by the tag you want
+            'orderby'        => 'rand',
+            'order'          => 'ASC',
             'posts_per_page' => 3,
         );
 
@@ -52,7 +54,7 @@ if ( ! function_exists( 'display_related_posts_on_listing' ) ) {
 <!--
                         <div class="row section-button">
                             <a class="tag-link" href="<?php echo get_tag_link($post_tag);?>"><?php _e('More Posts','my-listing');  ?></a>
-                    
+
                         </div>
 -->
 
@@ -60,8 +62,11 @@ if ( ! function_exists( 'display_related_posts_on_listing' ) ) {
 
                 </div>
             </section>
-        
+
         <?php
         }
     }
 }
+
+// Remove admin bar
+add_filter('show_admin_bar', '__return_false');

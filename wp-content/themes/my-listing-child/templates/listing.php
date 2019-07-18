@@ -98,6 +98,8 @@ $GLOBALS['case27_custom_styles'] .= sprintf( ' body.single-listing .title-style-
         </div>
     </section>
 
+    <?php get_template_part('partials/breadcrumbs'); ?>
+
     <div class="profile-header">
         <div class="container">
             <div class="row">
