@@ -22,7 +22,8 @@ if ( ! function_exists( 'display_related_posts_on_listing' ) ) {
 
         $related_products = new WP_Query( $args );
         //print_r($related_products);
-        if (sizeof($related_products)>0) {
+        //if (sizeof($related_products)>0) {
+        if ( $related_products->have_posts() ) {
             ?>
             <section class="archive-posts">
                 <div class="container">
